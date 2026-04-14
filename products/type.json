@@ -1,36 +1,87 @@
 {
-  "study_material": ["undergraduate", "postgraduate", "bcom", "bba", "plus_two", "plus_one", "sslc", "psc", "b_ed", "mca", "btech", "mba", "ca", "cs", "medical", "law", "architecture"],
-  "template": ["html5", "figma", "react", "vue", "wordpress", "presentation", "resume", "business_plan", "angular", "nextjs", "flutter", "notion", "canva", "google_docs", "excel", "ecommerce"],
-  "book": ["romantic", "textbook", "fiction", "non_fiction", "self_help", "fantasy", "academic", "reference", "thriller", "biography", "poetry", "children", "business", "sci_fi", "horror", "cookbook"],
-  "course": ["video_series", "text_based", "interactive", "test_prep", "skill_based", "certification", "workshop", "live_class", "beginner", "advanced", "professional"],
-  "crash_course": ["test_prep", "skill_bootcamp", "subject_intensive", "exam_cram", "interview_prep", "language_crash", "coding_bootcamp"],
-  "college_project": ["engineering", "science", "commerce", "arts", "capstone", "final_year", "mini_project", "research_project", "startup_pitch", "case_study"],
-  "tution": ["recorded_sessions", "lesson_plans", "assignment_packs", "doubt_solving", "test_series", "homework_help", "revision_pack"],
-  "business_idea": ["startup", "sme", "digital_business", "social_enterprise", "franchise", "local_business", "eco_friendly", "tech_startup"],
-  "pitch_deck": ["investor", "client", "competition", "startup", "grant_proposal", "crowdfunding", "vc_pitch"],
-  "guide": ["how_to", "travel", "cooking", "diy", "fitness", "parenting", "gardening", "home_repair", "tech_setup", "investment"],
-  "digital_art": ["illustrations", "character_designs", "wallpapers", "digital_painting", "vector_art", "concept_art", "nft_art", "logo_design", "poster_design"],
-  "font_pack": ["serif", "sans_serif", "display", "handwritten", "monospace", "script", "retro", "modern", "cyrillic", "arabic", "asian_fonts"],
-  "stock_media": ["video_clips", "photos", "music", "sound_effects", "backgrounds", "textures", "animations", "drone_footage", "cinematic"],
-  "design_kit": ["ui_kit", "icon_set", "illustration_pack", "wireframe", "mockup", "dashboard", "mobile_app", "web_design", "brand_identity"],
-  "spreadsheet_template": ["finance", "project_management", "inventory", "personal_budget", "expense_tracker", "meal_planner", "workout_log", "business_planning", "data_analysis", "tax_calculator"],
-  "legal_template": ["contract", "privacy_policy", "terms_of_service", "llp_agreement", "nda", "will", "rental_agreement", "employment_contract", "partnership_deed"],
-  "code_snippet": ["frontend", "backend", "algorithm", "mobile", "database", "api", "authentication", "payment_gateway", "blockchain", "machine_learning", "game_dev"],
-  "software_plugin": ["audio_vst", "photo_video", "wordpress", "browser_extension", "ecommerce", "seo", "security", "analytics", "chatbot", "social_media"],
-  "website_theme": ["wordpress", "shopify", "html5", "webflow", "drupal", "joomla", "blogger", "portfolio", "ecommerce", "news", "educational"],
-  "workbook": ["practice_problems", "journal", "goal_setting", "financial_planning", "therapy", "language_learning", "budget_planner", "habit_tracker", "meal_planner"],
-  "cheat_sheet": ["programming", "formulas", "cooking_measurements", "travel_phrases", "shortcut_keys", "git_commands", "docker", "linux", "medical", "legal_terms"],
-  "research_paper": ["published", "summary", "analysis", "literature_review", "case_study", "survey", "experimental", "thesis", "dissertation"],
-  "flashcard_deck": ["language", "science", "history", "medical", "law", "mathematics", "geography", "programming", "vocabulary", "exam_prep"],
-  "marketing_plan": ["digital", "traditional", "launch", "social_media", "content", "email", "influencer", "seasonal", "product_launch"],
-  "social_media_kit": ["campaign", "brand_launch", "holiday_pack", "instagram_stories", "tiktok_templates", "linkedin_banners", "youtube_thumbnails", "hashtag_strategy"],
-  "fitness_plan": ["weight_loss", "strength", "yoga", "meal_plans", "cardio", "bodybuilding", "calisthenics", "rehabilitation", "pregnancy_fitness", "senior_fitness"],
-  "gaming_asset": ["2d_sprites", "3d_models", "soundtracks", "game_ui", "character_rigs", "environment_packs", "particle_effects", "level_design", "game_mechanics"],
-  "music_sample": ["melodies", "drum_kits", "vocals", "loops", "sound_effects", "instrument_packs", "midi_files", "acapella", "synth_presets"],
-  "3d_model": ["characters", "objects", "environments", "low_poly", "anime", "realistic", "vehicles", "architecture", "furniture", "product_design"],
-  "printable": ["art_prints", "planners", "calendars", "invitations", "worksheets", "coloring_pages", "wall_decals", "business_cards", "sticker_designs"],
-  "ai_toolkit": ["prompt_library", "model_fine_tune", "api_script", "dataset", "training_guide", "ai_templates", "chatbot_scripts", "image_generation_prompts"],
-  "virtual_background": ["zoom", "teams", "professional", "fun", "holiday", "abstract", "office", "nature", "gaming", "educational"],
-  "bundle": ["mixed_media", "genre_specific", "holiday_pack", "starter_pack", "productivity_bundle", "designer_bundle", "developer_bundle", "student_bundle"],
-  "preset": ["lightroom", "photoshop", "vsco", "luts", "premiere_pro", "final_cut", "davinci_resolve", "instagram_filters", "snapseed"]
+  "study_material": ["undergraduate", "postgraduate", "bcom", "bba", "plus_two", "plus_one", "sslc", "psc", "b_ed", "mca", "btech", "mba", "ca", "cs", "medical", "law", "architecture", "civil_services", "banking", "railway", "defence", "teaching_exam", "data_science", "ai_ml", "cybersecurity"],
+
+  "template": ["html5", "figma", "react", "vue", "wordpress", "presentation", "resume", "business_plan", "angular", "nextjs", "flutter", "notion", "canva", "google_docs", "excel", "ecommerce", "landing_page", "dashboard", "admin_panel", "email_marketing", "invoice", "portfolio", "blog", "coming_soon", "maintenance_page"],
+
+  "book": ["romantic", "textbook", "fiction", "non_fiction", "self_help", "fantasy", "academic", "reference", "thriller", "biography", "poetry", "children", "business", "sci_fi", "horror", "cookbook", "history", "philosophy", "psychology", "religion", "art", "photography", "sports", "travel", "comic", "graphic_novel", "adventure", "mystery", "classic", "drama", "satire"],
+
+  "course": ["video_series", "text_based", "interactive", "test_prep", "skill_based", "certification", "workshop", "live_class", "beginner", "advanced", "professional", "micro_learning", "cohort_based", "self_paced", "mentorship", "project_based", "language", "soft_skills", "technical", "creative", "business"],
+
+  "crash_course": ["test_prep", "skill_bootcamp", "subject_intensive", "exam_cram", "interview_prep", "language_crash", "coding_bootcamp", "marketing_crash", "finance_crash", "design_crash", "productivity_crash", "public_speaking", "sales_crash"],
+
+  "college_project": ["engineering", "science", "commerce", "arts", "capstone", "final_year", "mini_project", "research_project", "startup_pitch", "case_study", "internship_report", "industrial_training", "dissertation", "synopsis", "prototype", "simulation"],
+
+  "tution": ["recorded_sessions", "lesson_plans", "assignment_packs", "doubt_solving", "test_series", "homework_help", "revision_pack", "parent_guide", "weekly_planner", "progress_tracker", "formula_sheets", "concept_maps"],
+
+  "business_idea": ["startup", "sme", "digital_business", "social_enterprise", "franchise", "local_business", "eco_friendly", "tech_startup", "saas", "ecommerce", "agency", "subscription_box", "consulting", "marketplace", "content_creation", "dropshipping", "print_on_demand", "coaching", "event_management"],
+
+  "pitch_deck": ["investor", "client", "competition", "startup", "grant_proposal", "crowdfunding", "vc_pitch", "angel_investor", "accelerator", "incubator", "internal_pitch", "sales_pitch", "partnership_deck"],
+
+  "guide": ["how_to", "travel", "cooking", "diy", "fitness", "parenting", "gardening", "home_repair", "tech_setup", "investment", "budgeting", "career_change", "job_search", "interview_guide", "negotiation", "freelancing", "remote_work", "digital_nomad", "pet_care", "beauty", "fashion", "photography", "video_editing", "productivity", "mindfulness", "meditation", "sleep_improvement", "first_aid", "survival", "fishing", "camping"],
+
+  "digital_art": ["illustrations", "character_designs", "wallpapers", "digital_painting", "vector_art", "concept_art", "nft_art", "logo_design", "poster_design", "fan_art", "anime", "realistic", "cartoon", "pixel_art", "isometric", "vintage", "cyberpunk", "fantasy", "sci_fi", "horror_art", "abstract", "geometric", "watercolor_style", "sketch", "line_art", "sticker_designs", "tattoo_flash"],
+
+  "font_pack": ["serif", "sans_serif", "display", "handwritten", "monospace", "script", "retro", "modern", "cyrillic", "arabic", "asian_fonts", "devanagari", "greek", "hebrew", "ligature", "variable_fonts", "minimal", "bold", "elegant", "grunge", "cartoon", "tech", "gothic"],
+
+  "stock_media": ["video_clips", "photos", "music", "sound_effects", "backgrounds", "textures", "animations", "drone_footage", "cinematic", "aerial_shots", "time_lapse", "slow_motion", "green_screen", "luts", "overlays", "transitions", "lower_thirds", "title_sequences", "vectors", "icons", "patterns", "brushes"],
+
+  "design_kit": ["ui_kit", "icon_set", "illustration_pack", "wireframe", "mockup", "dashboard", "mobile_app", "web_design", "brand_identity", "style_guide", "color_palette", "typography_set", "logo_templates", "business_card_templates", "letterhead", "envelope", "social_media_templates", "ad_banners", "flyers", "brochures", "newsletters"],
+
+  "spreadsheet_template": ["finance", "project_management", "inventory", "personal_budget", "expense_tracker", "meal_planner", "workout_log", "business_planning", "data_analysis", "tax_calculator", "crm", "employee_schedule", "timesheet", "invoice_tracker", "client_database", "real_estate_analysis", "stock_investment", "loan_calculator", "gradebook", "event_planning", "wedding_planner", "travel_budget", "rental_income", "subscription_tracker"],
+
+  "legal_template": ["contract", "privacy_policy", "terms_of_service", "llp_agreement", "nda", "will", "rental_agreement", "employment_contract", "partnership_deed", "service_agreement", "freelance_contract", "independent_contractor", "collaboration_agreement", "licensing_agreement", "non_compete", "settlement_agreement", "power_of_attorney", "affiliate_agreement", "copyright_notice", "dmca_notice"],
+
+  "code_snippet": ["frontend", "backend", "algorithm", "mobile", "database", "api", "authentication", "payment_gateway", "blockchain", "machine_learning", "game_dev", "data_structure", "web_scraping", "automation", "cron_jobs", "webhook", "oauth", "dockerfile", "kubernetes", "ci_cd", "testing", "logging", "error_handling", "form_validation", "animation", "chart", "calendar", "drag_drop"],
+
+  "software_plugin": ["audio_vst", "photo_video", "wordpress", "browser_extension", "ecommerce", "seo", "security", "analytics", "chatbot", "social_media", "form_builder", "backup", "migration", "translation", "membership", "forum", "event_calendar", "booking_system", "payment", "shipping", "marketing_automation", "popup_builder", "gdpr", "cache", "image_optimizer"],
+
+  "website_theme": ["wordpress", "shopify", "html5", "webflow", "drupal", "joomla", "blogger", "portfolio", "ecommerce", "news", "educational", "nonprofit", "restaurant", "hotel", "real_estate", "automotive", "wedding", "photography", "agency", "medical", "lawyer", "gym", "music", "gaming", "forum", "wiki", "job_board", "directory", "auction", "crowdfunding", "wiki"],
+
+  "workbook": ["practice_problems", "journal", "goal_setting", "financial_planning", "therapy", "language_learning", "budget_planner", "habit_tracker", "meal_planner", "gratitude_journal", "manifestation", "productivity_planner", "study_planner", "teacher_planner", "parenting_workbook", "career_workbook", "sales_workbook", "marketing_workbook", "leadership_workbook", "team_building"],
+
+  "cheat_sheet": ["programming", "formulas", "cooking_measurements", "travel_phrases", "shortcut_keys", "git_commands", "docker", "linux", "medical", "legal_terms", "math", "physics", "chemistry", "biology", "history_dates", "grammar", "vocabulary", "investment_terms", "seo_checklist", "security_checklist", "design_principles", "ux_laws", "sales_scripts", "email_templates"],
+
+  "research_paper": ["published", "summary", "analysis", "literature_review", "case_study", "survey", "experimental", "thesis", "dissertation", "systematic_review", "meta_analysis", "white_paper", "technical_report", "conference_paper", "journal_article", "preprint", "annotated_bibliography"],
+
+  "flashcard_deck": ["language", "science", "history", "medical", "law", "mathematics", "geography", "programming", "vocabulary", "exam_prep", "chemistry", "physics", "biology", "economics", "accounting", "finance", "marketing", "anatomy", "pharmacology", "psychology", "philosophy", "music_theory", "art_history", "capitals", "flags"],
+
+  "marketing_plan": ["digital", "traditional", "launch", "social_media", "content", "email", "influencer", "seasonal", "product_launch", "brand_awareness", "lead_generation", "customer_retention", "referral", "affiliate", "event_marketing", "guerrilla", "viral", "community_building", "seo_strategy", "ppc_strategy", "sms_marketing"],
+
+  "social_media_kit": ["campaign", "brand_launch", "holiday_pack", "instagram_stories", "tiktok_templates", "linkedin_banners", "youtube_thumbnails", "hashtag_strategy", "facebook_covers", "twitter_headers", "pinterest_pins", "snapchat_filters", "instagram_posts", "carousel_templates", "reel_templates", "caption_library", "content_calendar", "engagement_guide"],
+
+  "fitness_plan": ["weight_loss", "strength", "yoga", "meal_plans", "cardio", "bodybuilding", "calisthenics", "rehabilitation", "pregnancy_fitness", "senior_fitness", "hiit", "pilates", "zumba", "dance_fitness", "marathon_training", "triathlon", "swimming", "cycling", "kettlebell", "crossfit", "mobility", "stretching", "meditation", "breathwork", "posture_correction"],
+
+  "gaming_asset": ["2d_sprites", "3d_models", "soundtracks", "game_ui", "character_rigs", "environment_packs", "particle_effects", "level_design", "game_mechanics", "tile_sets", "animation_controller", "shaders", "vfx", "dialog_system", "inventory_system", "save_system", "achievements", "leaderboard", "skyboxes", "terrain", "weapon_assets", "vehicle_assets"],
+
+  "music_sample": ["melodies", "drum_kits", "vocals", "loops", "sound_effects", "instrument_packs", "midi_files", "acapella", "synth_presets", "bass_loops", "guitar_loops", "piano_loops", "orchestral", "edm", "hip_hop", "jazz", "rock", "ambient", "cinematic", "chill", "lofi", "techno", "house", "trance", "trap", "reggae", "latin", "afrobeat", "kpop"],
+
+  "3d_model": ["characters", "objects", "environments", "low_poly", "anime", "realistic", "vehicles", "architecture", "furniture", "product_design", "weapons", "animals", "plants", "trees", "rocks", "clouds", "weather_effects", "rigged", "animated", "vr_ready", "ar_ready", "3d_printable", "sculpted", "modular", "sci_fi_assets", "fantasy_assets", "historical", "military"],
+
+  "printable": ["art_prints", "planners", "calendars", "invitations", "worksheets", "coloring_pages", "wall_decals", "business_cards", "sticker_designs", "greeting_cards", "postcards", "bookmarks", "gift_tags", "wrapping_paper", "party_decorations", "banners", "cupcake_toppers", "place_cards", "menus", "price_tags", "labels", "folders", "notebook_covers", "journal_pages", "trackers", "to_do_lists"],
+
+  "ai_toolkit": ["prompt_library", "model_fine_tune", "api_script", "dataset", "training_guide", "ai_templates", "chatbot_scripts", "image_generation_prompts", "text_to_speech_prompts", "video_generation_prompts", "code_generation_prompts", "embedding_models", "vector_databases", "rag_pipeline", "agent_framework", "evaluation_metrics", "data_labeling", "model_comparison", "cost_calculator"],
+
+  "virtual_background": ["zoom", "teams", "professional", "fun", "holiday", "abstract", "office", "nature", "gaming", "educational", "conference", "interview", "podcast", "live_stream", "youtube", "classroom", "hospital", "library", "coffee_shop", "space", "underwater", "city", "beach", "forest", "mountain", "studio", "blurred", "branded", "event_specific"],
+
+  "bundle": ["mixed_media", "genre_specific", "holiday_pack", "starter_pack", "productivity_bundle", "designer_bundle", "developer_bundle", "student_bundle", "teacher_bundle", "marketer_bundle", "entrepreneur_bundle", "fitness_bundle", "gaming_bundle", "music_bundle", "ai_bundle", "lifetime_access", "seasonal_bundle", "mega_pack", "master_collection"],
+
+  "preset": ["lightroom", "photoshop", "vsco", "luts", "premiere_pro", "final_cut", "davinci_resolve", "instagram_filters", "snapseed", "capture_one", "darktable", "luminar", "affinity_photo", "gimp", "film_simulation", "vintage", "cinematic", "black_and_white", "portrait", "landscape", "street_photography", "wedding", "moody", "bright_airy", "dark_dramatic", "pastel", "neon", "retro_wave"],
+
+  "audio_book": ["fiction", "non_fiction", "self_help", "business", "biography", "history", "science", "philosophy", "children", "poetry", "drama", "thriller", "mystery", "fantasy", "sci_fi", "romance", "horror", "classic", "short_stories", "language_learning", "meditation", "religious", "educational", "abridged", "unabridged", "dramatized", "narrated_by_author", "celebrity_narrator", "bilingual"],
+
+  "resume_cv": ["modern", "creative", "minimal", "professional", "executive", "tech", "designer", "marketing", "finance", "medical", "legal", "academic", "fresh_graduate", "career_change", "freelance", "remote", "federal", "military_transition", "infographic", "video_resume", "portfolio_resume", "ats_friendly", "one_page", "two_page", "european_style", "asian_style", "cover_letter_included", "reference_page", "linkedin_optimizer"],
+
+  "email_template": ["newsletter", "welcome_email", "abandoned_cart", "order_confirmation", "shipping_update", "review_request", "reengagement", "birthday", "anniversary", "promotional", "event_invitation", "webinar_registration", "course_onboarding", "membership_welcome", "renewal_reminder", "invoice", "receipt", "password_reset", "security_alert", "feedback_request", "survey", "referral", "affiliate_outreach", "cold_email", "follow_up", "meeting_request", "job_application", "rejection", "acceptance", "holiday_promo"],
+
+  "automation_workflow": ["zapier", "make", "n8n", "pabbly", "power_automate", "ifttt", "integrately", "leads_management", "crm_sync", "invoice_auto", "social_media_scheduler", "email_marketing_auto", "slack_notifications", "google_sheets_update", "calendar_booking", "file_backup", "data_sync", "form_to_database", "payment_to_crm", "support_ticket_auto", "review_collector", "abandoned_cart_auto", "welcome_sequence", "tagging", "scoring", "routing"],
+
+  "seo_toolkit": ["keyword_research", "competitor_analysis", "backlink_checker", "site_audit", "rank_tracker", "seo_report", "local_seo", "ecommerce_seo", "technical_seo", "content_optimization", "schema_markup", "meta_tag_generator", "sitemap_generator", "robots_txt", "redirect_manager", "broken_link_finder", "seo_workflow", "outreach_templates", "seo_checklist", "core_web_vitals", "page_speed_guide", "seo_analytics_dashboard"],
+
+  "translation_pack": ["english_spanish", "english_french", "english_german", "english_chinese", "english_japanese", "english_arabic", "english_hindi", "english_russian", "english_portuguese", "english_italian", "english_dutch", "english_korean", "english_turkish", "english_vietnamese", "english_thai", "english_hebrew", "english_greek", "english_polish", "multiple_languages", "business_glossary", "technical_terms", "medical_translation", "legal_translation", "website_localization", "app_localization", "game_localization", "subtitle_translation", "document_translation"],
+
+  "podcast_kit": ["cover_art", "intro_music", "outro_music", "transition_sounds", "sound_effects_pack", "podcast_template", "episode_planner", "guest_tracker", "release_checklist", "show_notes_template", "interview_questions", "sponsorship_kit", "podcast_hosting_guide", "podcast_mic_settings", "remote_recording_guide", "editing_checklist", "podcast_launch_plan", "podcast_promo_kit", "audiogram_templates", "transcription_templates", "youtube_thumbnail_podcast"],
+
+  "invoice_receipt": ["invoice_template", "receipt_template", "proforma_invoice", "credit_note", "debit_note", "estimate_template", "quotation_template", "bill_of_lading", "packing_slip", "delivery_challan", "payment_reminder", "overdue_notice", "monthly_statement", "tax_invoice", "gst_invoice", "vat_invoice", "service_invoice", "product_invoice", "recurring_invoice", "deposit_invoice", "partial_payment", "final_invoice", "digital_receipt", "pos_receipt"],
+
+  "event_kit": ["virtual_event_kit", "physical_event_kit", "hybrid_event_kit", "conference_kit", "wedding_kit", "birthday_kit", "corporate_event", "trade_show", "meetup_kit", "workshop_kit", "webinar_kit", "concert_kit", "festival_kit", "fundraiser_kit", "awards_ceremony", "checklist", "run_of_show", "vendor_contact_list", "budget_template", "sponsorship_prospectus", "registration_form", "badge_template", "signage_template", "event_schedule", "speaker_kit", "volunteer_handbook", "post_event_survey", "post_event_report"]
 }
